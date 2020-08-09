@@ -1,0 +1,34 @@
+*.class
+*.log
+*.DS_Store
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+native/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+.bloop
+.metals
+project/.bloop
+project/metals.sbt
+
+# jenkins
+version.jenkins
+package.json
+
+# app specific
+etc/*.conf
+etc/*.xml
+
+logs/
